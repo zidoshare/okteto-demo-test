@@ -1,6 +1,7 @@
 # Movies App with Compose
 
 > add a test
+> add a pr
 
 This example shows how to leverage [Okteto](https://github.com/okteto/okteto) to develop a Node.js + React Sample App directly in Kubernetes. The Movies App is deployed using a [Docker Compose](https://github.com/okteto/movies-with-compose/blob/main/okteto-compose.yml). It creates the following components:
 
