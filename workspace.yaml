@@ -1,1 +1,20 @@
 ---
+version: "v1"
+image: "cloudstudio-devops-docker.pkg.coding.net/artifacts/saas.container/golang:1.18.5"
+envs:
+- name: "foo"
+  value: "bar"
+extensions:
+- "formulahendry.vscode-mysql@0.4.1"
+lifecycle: {}
+sidecar:
+  mysql:
+    password: "123456"
+    database: "demo"
+name: "sadewrf"
+description: ""
+tags:
+- "Java"
+- "Go"
+- "Python"
+ref: "master"
